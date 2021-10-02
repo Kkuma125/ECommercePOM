@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ECommercePOM
+Bundle-SymbolicName: ECommercePOM
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: ECommercePOM.jar,
+ kumar/OneDrive/Desktop/Selenium/client-combined-3.141.59.jar
+Automatic-Module-Name: ECommercePOM
+Bundle-RequiredExecutionEnvironment: JavaSE-16
+Export-Package: com.qa.opencart.base,
+ com.qa.opencart.factory,
+ com.qa.opencart.pages,
+ com.qa.opencart.testlisteners,
+ com.qa.opencart.tests,
+ com.qa.opencart.utils

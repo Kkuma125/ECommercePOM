@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="74.4" tests="17" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\kumar\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\kumar\eclipse-workspace\ECommercePOM\target\test-classes;C:\Users\kumar\eclipse-workspace\ECommercePOM\target\classes;C:\Users\kumar\.m2\repository\mysql\mysql-connector-java\8.0.26\mysql-connector-java-8.0.26.jar;C:\Users\kumar\.m2\repository\com\google\protobuf\protobuf-java\3.11.4\protobuf-java-3.11.4.jar;C:\Users\kumar\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\kumar\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\kumar\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\kumar\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\kumar\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\kumar\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\kumar\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\kumar\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\kumar\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\kumar\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\kumar\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\kumar\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\kumar\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\kumar\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\kumar\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\kumar\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\kumar\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\kumar\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\kumar\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\kumar\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\kumar\.m2\repository\io\github\bonigarcia\webdrivermanager\4.3.1\webdrivermanager-4.3.1.jar;C:\Users\kumar\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\kumar\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\kumar\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\kumar\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\kumar\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\kumar\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\kumar\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\kumar\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\kumar\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\kumar\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\kumar\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\kumar\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\kumar\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\kumar\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\kumar\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar;C:\Users\kumar\.m2\repository\commons-codec\commons-codec\1.5\commons-codec-1.5.jar;C:\Users\kumar\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Users\kumar\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\kumar\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\kumar\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Users\kumar\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\kumar\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\kumar\.m2\repository\org\apache\poi\poi-scratchpad\3.9\poi-scratchpad-3.9.jar;C:\Users\kumar\.m2\repository\org\apache\poi\ooxml-schemas\1.1\ooxml-schemas-1.1.jar;C:\Users\kumar\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\kumar\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\kumar\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\kumar\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\kumar\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\kumar\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\kumar\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\kumar\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\kumar\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\kumar\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\kumar\.m2\repository\io\qameta\allure\allure-testng\2.12.0\allure-testng-2.12.0.jar;C:\Users\kumar\.m2\repository\io\qameta\allure\allure-java-commons\2.12.0\allure-java-commons-2.12.0.jar;C:\Users\kumar\.m2\repository\io\qameta\allure\allure-model\2.12.0\allure-model-2.12.0.jar;C:\Users\kumar\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;C:\Users\kumar\.m2\repository\org\apache\tika\tika-core\1.20\tika-core-1.20.jar;C:\Users\kumar\.m2\repository\org\jooq\joor-java-8\0.9.10\joor-java-8-0.9.10.jar;C:\Users\kumar\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\kumar\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\kumar\.m2\repository\com\tesults\testng\tesults-testng\1.0.2\tesults-testng-1.0.2.jar;C:\Users\kumar\.m2\repository\com\tesults\tesults\1.0.2\tesults-1.0.2.jar;C:\Users\kumar\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar;C:\Users\kumar\.m2\repository\org\glassfish\jaxb\txw2\2.3.1\txw2-2.3.1.jar;C:\Users\kumar\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.7\istack-commons-runtime-3.0.7.jar;C:\Users\kumar\.m2\repository\org\jvnet\staxex\stax-ex\1.8\stax-ex-1.8.jar;C:\Users\kumar\.m2\repository\com\sun\xml\fastinfoset\FastInfoset\1.2.15\FastInfoset-1.2.15.jar;C:\Users\kumar\.m2\repository\com\amazonaws\aws-java-sdk-s3\1.11.228\aws-java-sdk-s3-1.11.228.jar;C:\Users\kumar\.m2\repository\com\amazonaws\aws-java-sdk-kms\1.11.228\aws-java-sdk-kms-1.11.228.jar;C:\Users\kumar\.m2\repository\com\amazonaws\aws-java-sdk-core\1.11.228\aws-java-sdk-core-1.11.228.jar;C:\Users\kumar\.m2\repository\software\amazon\ion\ion-java\1.0.2\ion-java-1.0.2.jar;C:\Users\kumar\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-cbor\2.6.7\jackson-dataformat-cbor-2.6.7.jar;C:\Users\kumar\.m2\repository\joda-time\joda-time\2.8.1\joda-time-2.8.1.jar;C:\Users\kumar\.m2\repository\com\amazonaws\jmespath-java\1.11.228\jmespath-java-1.11.228.jar;C:\Users\kumar\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.5\jackson-core-2.9.5.jar;C:\Users\kumar\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.5\jackson-annotations-2.9.5.jar;C:\Users\kumar\.m2\repository\org\json\json\20171018\json-20171018.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-16.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\kumar\AppData\Local\Temp\surefire726536080293365691\surefirebooter6177851396741468819.jar C:\Users\kumar\AppData\Local\Temp\surefire726536080293365691 2021-10-02T19-06-13_189-jvmRun1 surefire666040803421689188tmp surefire_013043898842837427816tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\kumar\eclipse-workspace\ECommercePOM\target\test-classes;C:\Users\kumar\eclipse-workspace\ECommercePOM\target\classes;C:\Users\kumar\.m2\repository\mysql\mysql-connector-java\8.0.26\mysql-connector-java-8.0.26.jar;C:\Users\kumar\.m2\repository\com\google\protobuf\protobuf-java\3.11.4\protobuf-java-3.11.4.jar;C:\Users\kumar\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\kumar\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\kumar\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\kumar\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\kumar\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\kumar\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\kumar\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\kumar\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\kumar\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\kumar\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\kumar\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\kumar\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\kumar\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\kumar\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\kumar\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\kumar\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\kumar\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\kumar\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\kumar\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\kumar\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\kumar\.m2\repository\io\github\bonigarcia\webdrivermanager\4.3.1\webdrivermanager-4.3.1.jar;C:\Users\kumar\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\kumar\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\kumar\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\kumar\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\kumar\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\kumar\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\kumar\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\kumar\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\kumar\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\kumar\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\kumar\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\kumar\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\kumar\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\kumar\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\kumar\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar;C:\Users\kumar\.m2\repository\commons-codec\commons-codec\1.5\commons-codec-1.5.jar;C:\Users\kumar\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Users\kumar\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\kumar\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\kumar\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Users\kumar\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\kumar\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\kumar\.m2\repository\org\apache\poi\poi-scratchpad\3.9\poi-scratchpad-3.9.jar;C:\Users\kumar\.m2\repository\org\apache\poi\ooxml-schemas\1.1\ooxml-schemas-1.1.jar;C:\Users\kumar\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\kumar\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\kumar\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\kumar\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\kumar\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\kumar\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\kumar\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\kumar\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\kumar\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\kumar\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\kumar\.m2\repository\io\qameta\allure\allure-testng\2.12.0\allure-testng-2.12.0.jar;C:\Users\kumar\.m2\repository\io\qameta\allure\allure-java-commons\2.12.0\allure-java-commons-2.12.0.jar;C:\Users\kumar\.m2\repository\io\qameta\allure\allure-model\2.12.0\allure-model-2.12.0.jar;C:\Users\kumar\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;C:\Users\kumar\.m2\repository\org\apache\tika\tika-core\1.20\tika-core-1.20.jar;C:\Users\kumar\.m2\repository\org\jooq\joor-java-8\0.9.10\joor-java-8-0.9.10.jar;C:\Users\kumar\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\kumar\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\kumar\.m2\repository\com\tesults\testng\tesults-testng\1.0.2\tesults-testng-1.0.2.jar;C:\Users\kumar\.m2\repository\com\tesults\tesults\1.0.2\tesults-1.0.2.jar;C:\Users\kumar\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar;C:\Users\kumar\.m2\repository\org\glassfish\jaxb\txw2\2.3.1\txw2-2.3.1.jar;C:\Users\kumar\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.7\istack-commons-runtime-3.0.7.jar;C:\Users\kumar\.m2\repository\org\jvnet\staxex\stax-ex\1.8\stax-ex-1.8.jar;C:\Users\kumar\.m2\repository\com\sun\xml\fastinfoset\FastInfoset\1.2.15\FastInfoset-1.2.15.jar;C:\Users\kumar\.m2\repository\com\amazonaws\aws-java-sdk-s3\1.11.228\aws-java-sdk-s3-1.11.228.jar;C:\Users\kumar\.m2\repository\com\amazonaws\aws-java-sdk-kms\1.11.228\aws-java-sdk-kms-1.11.228.jar;C:\Users\kumar\.m2\repository\com\amazonaws\aws-java-sdk-core\1.11.228\aws-java-sdk-core-1.11.228.jar;C:\Users\kumar\.m2\repository\software\amazon\ion\ion-java\1.0.2\ion-java-1.0.2.jar;C:\Users\kumar\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-cbor\2.6.7\jackson-dataformat-cbor-2.6.7.jar;C:\Users\kumar\.m2\repository\joda-time\joda-time\2.8.1\joda-time-2.8.1.jar;C:\Users\kumar\.m2\repository\com\amazonaws\jmespath-java\1.11.228\jmespath-java-1.11.228.jar;C:\Users\kumar\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.5\jackson-core-2.9.5.jar;C:\Users\kumar\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.5\jackson-annotations-2.9.5.jar;C:\Users\kumar\.m2\repository\org\json\json\20171018\json-20171018.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\kumar"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-16.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\kumar\eclipse-workspace\ECommercePOM"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\kumar\AppData\Local\Temp\surefire726536080293365691\surefirebooter6177851396741468819.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="16.0.2+7-67"/>
+    <property name="user.name" value="kumar"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\kumar\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\kumar\AppData\Local\Temp\"/>
+    <property name="java.version" value="16.0.2"/>
+    <property name="user.dir" value="C:\Users\kumar\eclipse-workspace\ECommercePOM"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-16.0.2\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk-16.0.2\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-16.0.2\bin;C:\Windows\System32;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\kumar\AppData\Local\Microsoft\WindowsApps;D:\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="16.0.2+7-67"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="60.0"/>
+  </properties>
+  <testcase name="LoginPageTitleTest" classname="com.qa.opencart.tests.LoginPageTest" time="0.017">
+    <system-out><![CDATA[...
+... TestNG 6.14.3 by Cédric Beust (cedric@beust.com)
+...
+
+Tesults disabled - target not provided.
+Test Suite started!
+Tesults disabled - target not provided.
+Test Suite started!
+Tesults disabled - target not provided.
+Test Suite started!
+Running on Environment -->: null
+browser Name is: chrome
+Running on Environment -->: null
+browser Name is: chrome
+Running on Environment -->: null
+browser Name is: chrome
+LoginPageTitleTest started!
+LoginPageTitleTest started!
+LoginPageTitleTest started!
+Login Page title :Account Login
+Login Page title :Account Login
+Login Page title :Account Login
+LoginPageTitleTest passed!
+LoginPageTitleTest passed!
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (class com.qa.opencart.factory.DriverFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN No appenders could be found for logger (class com.qa.opencart.factory.DriverFactory).
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+SSStttaaarrrtttiiinnnggg  C ChChhrrrooommmeeeDDDrrriiivvveeerrr   999444...000...44466006660..666.11  6((144 11(884bb177888ffb55788833f885eed8d030b8b1e1cdc66099bbb1bcb464ee955b11bee4aae00522155e22a11077211588552441997111558--5rr4e9eff1ss5//-brreafnbrcsah/nbc-rhha-enhaecadhsd-s/h/4e64a6060d6@s{@/#{4#1621020604@}4{)}#) 1 o2o0n 4np} o)pr otor nt6 6 p93o2568
+2On
+lOy nlloy claolc aclon nceocntneicontiso anrs ea rale loalwleodw.e
+d.Pl
+ePasleea ssee es ehtet hpst:tp//s:c/hr/ochmerodmrievderir.chrvomeiru.mc.hrotrg /3secruormiitumy.-o6rcg8o/s5ecn6sui
+dOernrilattyy i-loncsoo cnfasolri d cseournagngeetcistotniioso nnsfso  oran rs eku egaegpleisltnoig onCwsh reoodnm.e kD
+rePielpveeianrsg e saC fhsreeo.em e
+hDtrtipvse:r/ /scharfoem.ed
+river.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+CCChhhrroommreeDDorrmiievveeDrrr w awisas vs estrta artrwteadesd  s ssutcuccaecrestssesfdfu ulslluylc.yc.e
+
+ssfully.
+Oct 02, 2021 7:06:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 02, 2021 7:06:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 02, 2021 7:06:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="LoginPageTitleTest" classname="com.qa.opencart.tests.LoginPageTest" time="0.018"/>
+  <testcase name="LoginPageTitleTest" classname="com.qa.opencart.tests.LoginPageTest" time="0.03">
+    <system-out><![CDATA[LoginPageTitleTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="LoginTest" classname="com.qa.opencart.tests.LoginPageTest" time="9.107">
+    <system-out><![CDATA[LoginTest started!
+Login With : kumar95530@gmail.comKkuma125
+LoginTest started!
+Login With : kumar95530@gmail.comKkuma125
+LoginTest started!
+Login With : kumar95530@gmail.comKkuma125
+LoginTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="LoginTest" classname="com.qa.opencart.tests.LoginPageTest" time="0.058">
+    <system-out><![CDATA[LoginTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="LoginTest" classname="com.qa.opencart.tests.LoginPageTest" time="0.001">
+    <system-out><![CDATA[isForgotPwdLinkExist started!
+LoginTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="isForgotPwdLinkExist" classname="com.qa.opencart.tests.LoginPageTest" time="0.056">
+    <system-out><![CDATA[isForgotPwdLinkExist started!
+isForgotPwdLinkExist passed!
+]]></system-out>
+  </testcase>
+  <testcase name="isForgotPwdLinkExist" classname="com.qa.opencart.tests.LoginPageTest" time="0.002">
+    <system-out><![CDATA[isForgotPwdLinkExist started!
+isForgotPwdLinkExist passed!
+]]></system-out>
+  </testcase>
+  <testcase name="isForgotPwdLinkExist" classname="com.qa.opencart.tests.LoginPageTest" time="0.011">
+    <system-out><![CDATA[isForgotPwdLinkExist passed!
+]]></system-out>
+  </testcase>
+  <testcase name="accountsPageTitleTest" classname="com.qa.opencart.tests.AccountsPageTest" time="0.057">
+    <system-out><![CDATA[Test Suite is ending!
+Tesults disabled - target not provided.
+Test Suite started!
+Running on Environment -->: null
+browser Name is: chrome
+Test Suite is ending!
+Test Suite is ending!
+Login With : kumar95530@gmail.comKkuma125
+accountsPageTitleTest started!
+Accounts Page Title is : My Account
+accountsPageTitleTest passed!
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 12995
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 02, 2021 7:06:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyAccountsPageHeaderTest" classname="com.qa.opencart.tests.AccountsPageTest" time="1.732">
+    <system-out><![CDATA[verifyAccountsPageHeaderTest started!
+Accounts Page Header Value :Your Store
+verifyAccountsPageHeaderTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="verifyAccountsPageSectionsTest" classname="com.qa.opencart.tests.AccountsPageTest" time="0.055">
+    <system-out><![CDATA[verifyAccountsPageSectionsTest started!
+verifyAccountsPageSectionsTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="verifyAccountsSectionListTest" classname="com.qa.opencart.tests.AccountsPageTest" time="0.124">
+    <system-out><![CDATA[verifyAccountsSectionListTest started!
+My Account
+My Orders
+My Affiliate Account
+Newsletter
+[My Account, My Orders, My Affiliate Account, Newsletter]
+verifyAccountsSectionListTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="searchTest[iMac](1)" classname="com.qa.opencart.tests.AccountsPageTest" time="5.09">
+    <system-out><![CDATA[searchTest started!
+searchTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="searchTest[iPhone](2)" classname="com.qa.opencart.tests.AccountsPageTest" time="4.603">
+    <system-out><![CDATA[searchTest started!
+searchTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="searchTest[Macbook](3)" classname="com.qa.opencart.tests.AccountsPageTest" time="4.716">
+    <system-out><![CDATA[searchTest started!
+searchTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="verifyProductResultsTest" classname="com.qa.opencart.tests.AccountsPageTest" time="7.793">
+    <system-out><![CDATA[verifyProductResultsTest started!
+Total Number of items Displayed :1
+verifyProductResultsTest passed!
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,17 @@
+com\mystore\pages\OrderConfirmationPage.class
+com\mystore\pages\OrderSummaryPage.class
+com\mysrtore\base\BaseClass.class
+com\mystore\pages\LoginPage.class
+com\mystore\pages\AccountCreationPage.class
+com\mystore\actiondriver\Action.class
+com\mystore\pages\IndexPage.class
+com\mystore\pages\ShippingPage.class
+com\mystore\pages\AddToCartPage.class
+com\mystore\pages\HomePage.class
+com\mystore\utility\GetElement.class
+com\mystore\pages\OrderPage.class
+com\mystore\actioninterface\ActionInterface.class
+com\mystore\pages\SearchResultPage.class
+com\mystore\pages\AddressPage.class
+com\mystore\pages\PaymentPage.class
+com\mystore\utility\JavaScriptUtil.class
