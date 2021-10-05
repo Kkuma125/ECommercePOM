@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.testng.eclipse.launchconfig">
+    <stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.m2e.launchconfig.classpathProvider"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.testng.remote.RemoteTestNG"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="ECommercePOM"/>
+    <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
+    <mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS"/>
+    <listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
+        <listEntry value="com.qa.opencart.tests.ProductInfoTest"/>
+        <listEntry value="com.qa.opencart.utils.ExcelUtil"/>
+        <listEntry value="com.qa.opencart.utils.Constants"/>
+        <listEntry value="com.qa.opencart.factory.OptionsManager"/>
+        <listEntry value="com.qa.opencart.pages.AccountsPage"/>
+        <listEntry value="com.qa.opencart.tests.RegisterPageTest"/>
+        <listEntry value="com.qa.opencart.utils.JavaScriptUtil"/>
+        <listEntry value="com.qa.opencart.utils.ElementUtil"/>
+        <listEntry value="com.qa.opencart.testlisteners.ExtentReportListener"/>
+        <listEntry value="com.qa.opencart.base.BaseTest"/>
+        <listEntry value="com.qa.opencart.tests.AccountsPageTest"/>
+        <listEntry value="com.qa.opencart.pages.RegisterPage"/>
+        <listEntry value="com.qa.opencart.pages.ProductInfoPage"/>
+        <listEntry value="com.qa.opencart.factory.DriverFactory"/>
+        <listEntry value="com.qa.opencart.tests.LoginPageTest"/>
+        <listEntry value="com.qa.opencart.pages.LoginPage"/>
+    </listAttribute>
+    <listAttribute key="org.testng.eclipse.METHOD_TEST_LIST"/>
+    <listAttribute key="org.testng.eclipse.PACKAGE_TEST_LIST"/>
+    <stringAttribute key="org.testng.eclipse.PRE_DEFINED_LISTENERS" value=""/>
+    <intAttribute key="org.testng.eclipse.TYPE" value="1"/>
+</launchConfiguration>
